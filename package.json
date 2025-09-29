@@ -31,12 +31,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erdincyilmaz/appium-installer.git"
+    "url": "https://github.com/erdncyz/appium-installer.git"
   },
   "bugs": {
-    "url": "https://github.com/erdincyilmaz/appium-installer/issues"
+    "url": "https://github.com/erdncyz/appium-installer/issues"
   },
-  "homepage": "https://github.com/erdincyilmaz/appium-installer#readme",
+  "homepage": "https://github.com/erdncyz/appium-installer#readme",
   "engines": {
     "node": ">=16.0.0",
     "npm": ">=8.0.0"
