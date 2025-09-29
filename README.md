@@ -20,7 +20,7 @@ This application is an interactive terminal application developed to simplify [A
 
 ```bash
 # Install globally
-npm install -g appium-installer
+npm install -g @erdncyz/appium-installer
 
 # Run the application
 appium-installer
@@ -206,11 +206,11 @@ The application detects failed installations and provides manual installation in
 
 ## NPM Package Information
 
-- **Package Name**: `appium-installer`
+- **Package Name**: `@erdncyz/appium-installer`
 - **Version**: 3.0.0
 - **Global Command**: `appium-installer`
-- **Repository**: https://github.com/erdincyilmaz/appium-installer
-- **NPM**: https://www.npmjs.com/package/appium-installer
+- **Repository**: https://github.com/erdncyz/appium-installer
+- **NPM**: https://www.npmjs.com/package/@erdncyz/appium-installer
 
 ## License
 
