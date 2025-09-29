@@ -2,7 +2,6 @@
   "name": "@erdncyz/appium-installer",
   "version": "3.0.2",
   "description": "Interactive Appium 3.0 installation tool with platform detection, driver management, and plugin support",
-  "readme": "README.md",
   "main": "appium-installer.js",
   "bin": {
     "appium-installer": "./appium-installer.js"
