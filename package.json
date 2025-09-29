@@ -1,0 +1,63 @@
+{
+  "name": "appium-installer",
+  "version": "3.0.0",
+  "description": "Interactive Appium 3.0 installation tool with platform detection, driver management, and plugin support",
+  "main": "appium-installer.js",
+  "bin": {
+    "appium-installer": "./appium-installer.js"
+  },
+  "scripts": {
+    "start": "node appium-installer.js",
+    "test": "node -c appium-installer.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "appium",
+    "mobile-automation",
+    "testing",
+    "selenium",
+    "ios",
+    "android",
+    "automation",
+    "installer",
+    "setup",
+    "cli",
+    "tool"
+  ],
+  "author": {
+    "name": "Erdinç Yılmaz",
+    "email": "erdincyilmaz@example.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erdincyilmaz/appium-installer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erdincyilmaz/appium-installer/issues"
+  },
+  "homepage": "https://github.com/erdincyilmaz/appium-installer#readme",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "preferGlobal": true,
+  "files": [
+    "appium-installer.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "appium": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "appium": {
+      "optional": true
+    }
+  }
+}
